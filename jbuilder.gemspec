@@ -1,10 +1,14 @@
 Gem::Specification.new do |s|
-  s.name     = 'jbuilder'
-  s.version  = '2.11.5'
-  s.authors  = 'David Heinemeier Hansson'
-  s.email    = 'david@basecamp.com'
+  s.name     = 'jbuilder-jets'
+  s.version  = '0.1.0'
+  s.authors  = 'Tung Nguyen'
+  s.email    = 'tung@boltops.com'
+  # Keep original authors as comment. Give them credit but they're not maintaining this fork.
+  # s.version  = '2.11.5'
+  # s.authors  = 'David Heinemeier Hansson'
+  # s.email    = 'david@basecamp.com'
   s.summary  = 'Create JSON structures via a Builder-style DSL'
-  s.homepage = 'https://github.com/rails/jbuilder'
+  s.homepage = 'https://github.com/rubyonjets/jbuilder-jets'
   s.license  = 'MIT'
 
   s.required_ruby_version = '>= 2.2.2'
@@ -22,10 +26,9 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- test/*`.split("\n")
 
   s.metadata = {
-    "bug_tracker_uri"       => "https://github.com/rails/jbuilder/issues",
-    "changelog_uri"         => "https://github.com/rails/jbuilder/releases/tag/v#{s.version}",
-    "mailing_list_uri"      => "https://discuss.rubyonrails.org/c/rubyonrails-talk",
-    "source_code_uri"       => "https://github.com/rails/jbuilder/tree/v#{s.version}",
+    "bug_tracker_uri"       => "https://github.com/rubyonjets/jbuilder-jets/issues",
+    "changelog_uri"         => "https://github.com/rubyonjets/jbuilder-jets/releases/tag/v#{s.version}",
+    "source_code_uri"       => "https://github.com/rubyonjets/jbuilder-jets/tree/v#{s.version}",
     "rubygems_mfa_required" => "true",
   }
 end
